@@ -47,13 +47,6 @@
             <div class="col-lg-6 ps-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center text-white">
                     <img src="{% static 'core/img/logo_t.webp'%}" alt="Logo" width="30" height="30">
-                    {% if LINK_FACEBOOK %} <a class="btn btn-link text-light" href="{{LINK_FACEBOOK}}"><i class="fab fa-facebook-f"></i></a> {% endif %}
-                    {% if LINK_TWITTER %} <a class="btn btn-link text-light" href="{{LINK_TWITTER}}"><i class="fab fa-twitter"></i></a> {% endif %}
-                    {% if LINK_INSTAGRAM %} <a class="btn btn-link text-light" href="{{LINK_INSTAGRAM}}"><i class="fab fa-instagram"></i></a> {% endif %}
-                    {% if LINK_WHATSAPP %}<a class="btn btn-link text-light" aria-label="WhatsApp" href="{{LINK_WHATSAPP}}" target="_blank" rel="noreferrer noopener"><i class="fab fa-whatsapp"></i></a>{% endif %}
-                    {% if LINK_LINKEDIN %} <a class="btn btn-link text-light" href="{{LINK_LINKEDIN}}"><i class="fab fa-linkedin-in"></i></a> {% endif %}
-                    {% if LINK_YOUTUBE %} <a class="btn btn-link text-light" href="{{LINK_YOUTUBE}}"><i class="fab fa-youtube"></i></a> {% endif %}
-                    {% if LINK_TIKTOK %} <a class="btn btn-link text-light" href="{{LINK_TIKTOK}}"><i class="fab fa-tiktok"></i></a> {% endif %}
                 </div>
             </div>
             <div class="col-lg-6 text-end">
@@ -95,25 +88,17 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Nuestras oficinas</h5>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://www.google.com/maps/place/0%C2%B018'06.7%22S+78%C2%B032'24.8%22W/@-0.3018716,-78.5424176,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.3018716!4d-78.5402289"
-                        target="blank">CA S38E Miguel Angel Viteri E1180 Lote 42C - Entrada al Conde</a></p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0981 972 897 - 0988 663 057</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>baudioparts@gmail.com</p>
-                    <div class="d-flex pt-3">
-                        {% if LINK_FACEBOOK %} <a class="btn btn-square btn-primary rounded-circle me-2" href="{{LINK_FACEBOOK}}"><i class="fab fa-facebook-f"></i></a> {% endif %}
-                        {% if LINK_TWITTER %} <a class="btn btn-square btn-primary rounded-circle me-2" href="{{LINK_TWITTER}}"><i class="fab fa-twitter"></i></a> {% endif %}  
-                        {% if LINK_INSTAGRAM %} <a class="btn btn-square btn-primary rounded-circle me-2" href="{{LINK_INSTAGRAM}}"><i class="fab fa-instagram"></i></a> {% endif %}                
-                        {% if LINK_WHATSAPP %} <a class="btn btn-square btn-primary rounded-circle me-2" href="{{LINK_WHATSAPP}}" aria-label="WhatsApp" 
-                        target="_blank" rel="noreferrer noopener"><i class="fab fa-whatsapp"></i></a> {% endif %}
-                        {% if LINK_LINKEDIN %} <a class="btn btn-square btn-primary rounded-circle me-2" href="{{LINK_LINKEDIN}}"><i class="fab fa-linkedin-in"></i></a> {% endif %}
-                        {% if LINK_YOUTUBE %} <a class="btn btn-square btn-primary rounded-circle me-2" href="{{LINK_YOUTUBE}}"><i class="fab fa-youtube"></i></a> {% endif %}
-                        {% if LINK_TIKTOK %} <a class="btn btn-square btn-primary rounded-circle me-2" href="{{LINK_TIKTOK}}"><i class="fab fa-tiktok"></i></a> {% endif %}
-                    </div>
+                        target="blank">Matriz - CA S38E Miguel Angel Viteri E1180 Lote 42C - Entrada al Conde</a></p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://www.google.com/maps/place/0%C2%B011'47.9%22S+78%C2%B029'52.2%22W/@-0.1966463,-78.5004158,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.1966463!4d-78.4978409?hl=es&entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D"
+                        target="blank">Casa Musical- Versalles N25-45 y Colón</a></p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://www.google.com/maps/place/0%C2%B011'47.9%22S+78%C2%B029'52.2%22W/@-0.1966463,-78.5004158,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.1966463!4d-78.4978409?hl=es&entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D"
+                        target="blank">Sucursal Colón- Versalles N25-40 y Colón</a></p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Enlaces rápidos</h5>
-                    <a class="btn btn-link" href="{%url 'home'%}">Inicio</a>
-                    <a class="btn btn-link" href="{%url 'about'%}">Nosotros</a>
-                    <a class="btn btn-link" href="{%url 'contacts'%}">Contactos</a>
+                    <h5 class="text-white mb-4">Contactos</h5>
+                    <p><a class="fw-semi-bold" href="https://wa.me/593981972897" target="_blank" rel="noreferrer noopener">Matriz - 0981972897</a></p>
+                    <p><a class="fw-semi-bold" href="https://wa.me/593979126324" target="_blank" rel="noreferrer noopener">Casa Musical - 0979126324</a></p>
+                    <p><a class="fw-semi-bold" href="https://wa.me/593988663057" target="_blank" rel="noreferrer noopener">Sucursal Colón - 0988663057</a></p>
                     <a class="btn btn-link" href="{%url 'privacypolicy'%}">Copyright & Políticas</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -137,9 +122,7 @@
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark py-4">
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="{%url 'privacypolicy'%}">Audio Parts Electronics</a>, Todos los derechos reservados.
-            </p>
-            <p class="mb-0">Diseñado por <a class="fw-semi-bold" href="https://wa.me/593998602256" target="_blank" rel="noreferrer noopener">CyberTools</a></p>
+            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="{%url 'privacypolicy'%}">Audio Parts Electronics</a>, Todos los derechos reservados.</p>
         </div>
     </div>
     <!-- Copyright End -->
